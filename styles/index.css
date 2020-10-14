@@ -1,0 +1,89 @@
+img {
+    display: block;
+}
+
+body {
+  background-color: #121212;
+  margin-left: 1em;
+}
+
+#youtube-logo {
+    border-radius: 50%;
+    float: left;
+}
+
+#info {
+  color: white;
+  font-family: Arial;
+}
+
+#title {
+  font-family: Arial;
+  color: white;
+  float: left;
+}
+
+.menu-item {
+    color: #149414;
+    font-family: monospace;
+    float: left;
+    margin-left: 10px;
+    margin-top: 30px;
+    width: auto;
+}
+
+.menu-item:hover {
+    text-transform: uppercase;
+}
+
+#youtube {
+  color: #7400b8;
+  font-family: monospace;
+  float: left;
+  margin-left: 10px;
+  margin-top: 30px;
+}
+
+#youtube-root {
+  color: #7400b8;
+  font-family: monospace;
+  float: left;
+  margin-left: 20px;
+  margin-top: 30px;
+}
+
+#email {
+  color: #6930c3;
+  font-family: monospace;
+  float: left;
+  margin-left: -180px;
+  margin-top: 60px;
+}
+
+#chomikuj {
+  color: #7d51c4;
+  font-family: monospace;
+  float: left;
+  margin-left: -150px;
+  margin-top: 75px;
+}
+
+#github {
+  color: #5e60ce;
+  font-family: monospace;
+  float: left;
+  margin-left: -210px;
+  margin-top: 45px;
+}
+
+.blinking{
+    animation: blinkingtxt 1.8s infinite;
+}
+
+@keyframes blinkingtxt {
+    0% {     color: #7400b8;    }
+    49% {    color: #7400b8; }
+    59% {    color: transparent; }
+    89% {    color: transparent;  }
+    100% {   color: #7400b8;    }
+}
